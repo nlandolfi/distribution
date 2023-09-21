@@ -19,6 +19,8 @@ import (
 	"github.com/spf13/cobra"
 	"golang.org/x/crypto/acme"
 	"golang.org/x/crypto/acme/autocert"
+	"golang.org/x/net/http2"
+	"golang.org/x/net/http2/h2c"
 
 	"github.com/distribution/distribution/v3/configuration"
 	dcontext "github.com/distribution/distribution/v3/context"
@@ -157,8 +159,14 @@ func NewRegistry(ctx context.Context, config *configuration.Configuration) (*Reg
 	}
 
 	server := &http.Server{
-		Handler: handler,
+		Handler: h2c.NewHandler(handler, &http2.Server{}),
 	}
+
+	/*
+		if err := http2.ConfigureServer(server, &http2.Server{}); err != nil {
+			log.Fatal(err)
+		}
+	*/
 
 	return &Registry{
 		app:    app,
