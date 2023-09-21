@@ -5,11 +5,11 @@ import (
 	"path"
 	"testing"
 
-	"github.com/distribution/distribution/v3"
-	"github.com/distribution/distribution/v3/context"
-	"github.com/distribution/distribution/v3/registry/storage/driver"
-	"github.com/distribution/distribution/v3/registry/storage/driver/inmemory"
-	"github.com/distribution/distribution/v3/testutil"
+	"github.com/nlandolfi/distribution/v3"
+	"github.com/nlandolfi/distribution/v3/context"
+	"github.com/nlandolfi/distribution/v3/registry/storage/driver"
+	"github.com/nlandolfi/distribution/v3/registry/storage/driver/inmemory"
+	"github.com/nlandolfi/distribution/v3/testutil"
 	"github.com/distribution/reference"
 	"github.com/opencontainers/go-digest"
 )

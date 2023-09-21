@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"path"
 
-	storagedriver "github.com/distribution/distribution/v3/registry/storage/driver"
-	storagemiddleware "github.com/distribution/distribution/v3/registry/storage/driver/middleware"
+	storagedriver "github.com/nlandolfi/distribution/v3/registry/storage/driver"
+	storagemiddleware "github.com/nlandolfi/distribution/v3/registry/storage/driver/middleware"
 )
 
 type redirectStorageMiddleware struct {

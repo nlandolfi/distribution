@@ -8,15 +8,15 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/distribution/distribution/v3/configuration"
-	"github.com/distribution/distribution/v3/context"
-	"github.com/distribution/distribution/v3/registry/api/errcode"
-	v2 "github.com/distribution/distribution/v3/registry/api/v2"
-	"github.com/distribution/distribution/v3/registry/auth"
-	_ "github.com/distribution/distribution/v3/registry/auth/silly"
-	"github.com/distribution/distribution/v3/registry/storage"
-	memorycache "github.com/distribution/distribution/v3/registry/storage/cache/memory"
-	"github.com/distribution/distribution/v3/registry/storage/driver/inmemory"
+	"github.com/nlandolfi/distribution/v3/configuration"
+	"github.com/nlandolfi/distribution/v3/context"
+	"github.com/nlandolfi/distribution/v3/registry/api/errcode"
+	v2 "github.com/nlandolfi/distribution/v3/registry/api/v2"
+	"github.com/nlandolfi/distribution/v3/registry/auth"
+	_ "github.com/nlandolfi/distribution/v3/registry/auth/silly"
+	"github.com/nlandolfi/distribution/v3/registry/storage"
+	memorycache "github.com/nlandolfi/distribution/v3/registry/storage/cache/memory"
+	"github.com/nlandolfi/distribution/v3/registry/storage/driver/inmemory"
 )
 
 // TestAppDispatcher builds an application with a test dispatcher and ensures

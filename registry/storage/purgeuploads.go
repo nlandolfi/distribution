@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	storageDriver "github.com/distribution/distribution/v3/registry/storage/driver"
-	"github.com/distribution/distribution/v3/uuid"
+	storageDriver "github.com/nlandolfi/distribution/v3/registry/storage/driver"
+	"github.com/nlandolfi/distribution/v3/uuid"
 	"github.com/sirupsen/logrus"
 )
 

@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/distribution/distribution/v3/context"
-	"github.com/distribution/distribution/v3/registry/storage/driver/inmemory"
+	"github.com/nlandolfi/distribution/v3/context"
+	"github.com/nlandolfi/distribution/v3/registry/storage/driver/inmemory"
 	"github.com/distribution/reference"
 )
 

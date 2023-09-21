@@ -3,9 +3,9 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/distribution/distribution/v3"
-	"github.com/distribution/distribution/v3/context"
-	"github.com/distribution/distribution/v3/registry/api/errcode"
+	"github.com/nlandolfi/distribution/v3"
+	"github.com/nlandolfi/distribution/v3/context"
+	"github.com/nlandolfi/distribution/v3/registry/api/errcode"
 	"github.com/gorilla/handlers"
 	"github.com/opencontainers/go-digest"
 )

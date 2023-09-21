@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/distribution/distribution/v3"
-	"github.com/distribution/distribution/v3/context"
-	"github.com/distribution/distribution/v3/uuid"
+	"github.com/nlandolfi/distribution/v3"
+	"github.com/nlandolfi/distribution/v3/context"
+	"github.com/nlandolfi/distribution/v3/uuid"
 	"github.com/distribution/reference"
 	events "github.com/docker/go-events"
 	"github.com/opencontainers/go-digest"

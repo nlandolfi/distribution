@@ -5,12 +5,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/distribution/distribution/v3"
-	dcontext "github.com/distribution/distribution/v3/context"
-	"github.com/distribution/distribution/v3/manifest"
-	"github.com/distribution/distribution/v3/manifest/manifestlist"
-	"github.com/distribution/distribution/v3/manifest/ocischema"
-	"github.com/distribution/distribution/v3/manifest/schema2"
+	"github.com/nlandolfi/distribution/v3"
+	dcontext "github.com/nlandolfi/distribution/v3/context"
+	"github.com/nlandolfi/distribution/v3/manifest"
+	"github.com/nlandolfi/distribution/v3/manifest/manifestlist"
+	"github.com/nlandolfi/distribution/v3/manifest/ocischema"
+	"github.com/nlandolfi/distribution/v3/manifest/schema2"
 	"github.com/opencontainers/go-digest"
 	v1 "github.com/opencontainers/image-spec/specs-go/v1"
 )

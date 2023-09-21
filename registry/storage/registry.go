@@ -4,9 +4,9 @@ import (
 	"context"
 	"regexp"
 
-	"github.com/distribution/distribution/v3"
-	"github.com/distribution/distribution/v3/registry/storage/cache"
-	storagedriver "github.com/distribution/distribution/v3/registry/storage/driver"
+	"github.com/nlandolfi/distribution/v3"
+	"github.com/nlandolfi/distribution/v3/registry/storage/cache"
+	storagedriver "github.com/nlandolfi/distribution/v3/registry/storage/driver"
 	"github.com/distribution/reference"
 )
 

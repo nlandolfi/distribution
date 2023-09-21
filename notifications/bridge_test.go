@@ -3,11 +3,11 @@ package notifications
 import (
 	"testing"
 
-	"github.com/distribution/distribution/v3"
-	"github.com/distribution/distribution/v3/manifest"
-	"github.com/distribution/distribution/v3/manifest/schema2"
-	v2 "github.com/distribution/distribution/v3/registry/api/v2"
-	"github.com/distribution/distribution/v3/uuid"
+	"github.com/nlandolfi/distribution/v3"
+	"github.com/nlandolfi/distribution/v3/manifest"
+	"github.com/nlandolfi/distribution/v3/manifest/schema2"
+	v2 "github.com/nlandolfi/distribution/v3/registry/api/v2"
+	"github.com/nlandolfi/distribution/v3/uuid"
 	"github.com/distribution/reference"
 	events "github.com/docker/go-events"
 	"github.com/opencontainers/go-digest"

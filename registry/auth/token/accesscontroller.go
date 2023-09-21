@@ -12,8 +12,8 @@ import (
 	"os"
 	"strings"
 
-	dcontext "github.com/distribution/distribution/v3/context"
-	"github.com/distribution/distribution/v3/registry/auth"
+	dcontext "github.com/nlandolfi/distribution/v3/context"
+	"github.com/nlandolfi/distribution/v3/registry/auth"
 	"github.com/docker/libtrust"
 )
 
